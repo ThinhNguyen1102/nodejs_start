@@ -1,0 +1,15 @@
+<%- include('includes/head.ejs') %>
+  <h1 class="title">Sum</h1>
+  <form class="caculator-form" action="/sum" method="POST">
+    <div class="input-1">
+      <label for="num1">a</label>
+      <input type="text" name="num1" required>
+    </div>
+    <div class="input-1">
+      <label for="num2">b</label>
+      <input type="text" name="num2" required>
+    </div>
+
+    <button type="submit">Submit</button>
+  </form>
+<%- include('includes/end.ejs') %>
